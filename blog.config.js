@@ -17,8 +17,8 @@ const BLOG = {
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'RSmouyu', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '自言其中有至乐 适意无异逍遥游', // 作者简介
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'RS型烤鱼', // 您的昵称 例如 tangly1024
+  BIO: process.env.NEXT_PUBLIC_BIO || '两字功名一剑歌', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.rsmouyu.icu', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
 
